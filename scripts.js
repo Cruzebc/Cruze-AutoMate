@@ -1,10 +1,1 @@
-const menu=document.querySelector(".menu"),nav=document.querySelector(".nav nav");
-menu?.addEventListener("click",()=>{const open=nav.classList.toggle("open");menu.setAttribute("aria-expanded",open)});
-document.querySelectorAll(".nav nav a").forEach(a=>a.addEventListener("click",()=>nav.classList.remove("open")));
-document.getElementById("year").textContent=new Date().getFullYear();
-
-// Replace this with your real APK URL when you publish a release.
-const APK_URL="";
-document.getElementById("downloadBtn").addEventListener("click",e=>{
-  if(!APK_URL){e.preventDefault();alert("Your Cruze AutoMate download link has not been added yet. Edit APK_URL in scripts.js when your APK is ready.");}
-});
+const CRUZE_DOWNLOAD_URL="#";document.addEventListener("DOMContentLoaded",()=>{const m=document.querySelector("#menu"),n=document.querySelector("#links");m?.addEventListener("click",()=>{n.style.display=n.style.display==="flex"?"none":"flex";n.style.position="absolute";n.style.top="74px";n.style.left="0";n.style.right="0";n.style.padding="20px";n.style.background="#06100a";n.style.flexDirection="column"});const b=document.querySelector("#downloadBtn"),s=document.querySelector("#status");if(b&&CRUZE_DOWNLOAD_URL!=="#"){b.href=CRUZE_DOWNLOAD_URL;s.textContent="Official release link configured."}else b?.addEventListener("click",e=>{e.preventDefault();s.textContent="Add your official APK/release URL in scripts.js."})});
