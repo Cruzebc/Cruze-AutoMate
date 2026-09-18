@@ -1,24 +1,16 @@
-# CRUZE Website — 2026–2027
+# Cruze Technologies Web Order
 
-Upgraded visual static site for GitHub Pages, Vercel or similar hosting.
+Premium service-order website for Cruze Technologies.
 
-### Included
-- Supplied CRUZE Auto logo and favicon
-- Compact premium dark interface with light-blue accent
-- Dark/light theme switcher with saved preference
-- Responsive mobile navigation
-- Visual workflow console
-- Illustrative analytics dashboard and portfolio chart
-- Cruze AI chat-style concept
-- Product portfolio visual cards
-- AutoMate feature architecture
-- Documentation, privacy and terms pages
-- Footer: © 2026–2027 CRUZE. All Rights Reserved.
+## Included
+- Responsive premium dark/blue design
+- Service request buttons opening WhatsApp with pre-filled messages
+- WhatsApp destination configured for Cruze Technologies
+- Support email: cruzebc2025@gmail.com
+- Featured advertisement carousel
+- Browser-only advertisement manager with optional image upload and localStorage persistence
+- Mobile navigation
+- Premium service, process, trust, contact and footer sections
 
-### Before publishing
-1. In `scripts.js`, replace `CRUZE_DOWNLOAD_URL="#"` with the official APK/release URL.
-2. Confirm or change `support@cruze.co.ke`.
-3. Replace the starter Privacy and Terms text with final legal text.
-4. Upload the contents so `index.html` is at the site root.
-
-The dashboard/chart values are explicitly illustrative UI data, not live performance claims.
+## Important
+The advertisement manager is intentionally browser-local in this static package. For a real shared admin dashboard where adverts and customer requests persist across devices, connect it to a backend/database and authentication.
